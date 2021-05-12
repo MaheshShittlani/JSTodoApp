@@ -9,7 +9,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header class="my-4 text-center text-light">
+            <h1 class="mb-4">Todo List</h1>
+            <form class="search">
+                <input class="form-control m-auto" type="text" name="search" placeholder="Search Todo">
+            </form>
+        </header>
+        <ul class="list-group todos my-4">
+            <li class="list-group-item text-light todo-item d-flex justify-content-between py-3">
+                <span>Task-1</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+            <li class="list-group-item text-light todo-item d-flex justify-content-between py-3">
+                <span>Task-2</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+            <li class="list-group-item text-light todo-item d-flex justify-content-between py-3">
+                <span>Task-3</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+            <li class="list-group-item text-light todo-item d-flex justify-content-between py-3">
+                <span>Task-4</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+            <li class="list-group-item text-light todo-item d-flex justify-content-between py-3">
+                <span>Task-5</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+          </ul>
+
+
+          <form class="add my-4 text-center">
+              <label for="" class="text-light mb-2">Add a new todo...</label>
+              <input type="text" class="form-control m-auto" placeholder="Type new todo item">
+          </form>
+    </div>
+
+
     <script src="app.js"></script>
 </body>
 </html>
